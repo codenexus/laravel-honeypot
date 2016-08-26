@@ -31,6 +31,6 @@ class Honeypot
 
 	protected function decryptTime($time)
 	{
-		return decryt($time);
+		return decrypt($time);
 	}
 }

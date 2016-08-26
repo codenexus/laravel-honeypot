@@ -19,7 +19,7 @@ class HoneypotServiceProvider extends ServiceProvider
     	$this->loadTranslationsFrom(__DIR__ . '/../lang', 'honeypot');
 
     	Validator::extend('honeypot', 'honeypot@validateHoneypot', trans('validation.honeypot'));
-    	Validator::extend('honeypot', 'honeypot@validateHoneytime', trans('validation.honeytime'));
+    	Validator::extend('honeytime', 'honeypot@validateHoneytime', trans('validation.honeytime'));
     }
 
     public function register()
