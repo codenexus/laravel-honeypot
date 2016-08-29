@@ -14,7 +14,7 @@ class Honeypot
 
 	public function validateHoneypot($attribute, $value, $parameters)
 	{
-		return $value == '';
+		return ($value) ? false : true;
 	}
 
 	public function validateHoneytime($attribute, $value, $parameters)
@@ -31,6 +31,6 @@ class Honeypot
 
 	protected function decryptTime($time)
 	{
-		return decrypt($time);
+        return decrypt($time);
 	}
 }
