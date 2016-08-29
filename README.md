@@ -1,3 +1,5 @@
+[![Latest Stable Version](https://poser.pugx.org/codenexus/laravel-honeypot/v/stable)](https://packagist.org/packages/codenexus/laravel-honeypot) [![Total Downloads](https://poser.pugx.org/codenexus/laravel-honeypot/downloads)](https://packagist.org/packages/codenexus/laravel-honeypot) [![License](https://poser.pugx.org/codenexus/laravel-honeypot/license)](https://packagist.org/packages/codenexus/laravel-honeypot) [![composer.lock](https://poser.pugx.org/codenexus/laravel-honeypot/composerlock)](https://packagist.org/packages/codenexus/laravel-honeypot)
+
 Honeypot spam prevention for Laravel applications
 =========
 

@@ -1,5 +1,24 @@
 {
     "name": "codenexus/laravel-honeypot",
+    "description": "Honeypot spam prevention.",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "spam",
+        "forms",
+        "honeypot"
+    ],
+    "authors": [
+        {
+            "name": "Codenexus, LLC",
+            "email": "help@codenexus.org"
+        },
+        {
+            "name": "Jeremy Schaffer",
+            "email": "jeremys@codenexus.org",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Codenexus\\Honeypot\\": "src/"
