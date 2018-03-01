@@ -5,20 +5,16 @@
     "keywords": ["laravel", "spam", "forms", "honeypot"],
     "authors": [
         {
-            "name": "Codenexus, LLC",
-            "email": "help@codenexus.org"
-        },
-        {
             "name": "Jeremy Schaffer",
-            "email": "jeremys@codenexus.org",
-            "role": "Developer"
+            "email": "jeremys@codenexus.org"
         }
     ],
     "require": {
-        "php": ">=5.6.4"
+        "php": "^7.0",
+        "laravel/framework": "~5.4.0|~5.5.0|~5.6.*"
     },
     "require-dev": {
-        "phpunit/phpunit": "4.*"
+        "phpunit/phpunit": "^6.3|^7.0"
     },
     "autoload": {
         "psr-4": {
@@ -28,6 +24,16 @@
     "autoload-dev": {
         "psr-4": {
             "Codenexus\\Honeypot\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codenexus\\Honeypot\\HoneypotServiceProvider"
+            ],
+            "aliases": {
+                "Honeypot": "Codenexus\\Honeypot\\Facades\\Honeypot"
+            }
         }
     }
 }
