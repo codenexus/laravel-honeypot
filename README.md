@@ -5,7 +5,7 @@ Honeypot spam prevention for Laravel applications
 
 ## Compatibility
 
-Laravel 5.3
+Laravel 5.3 - 5.6
 
 ## How does it work? 
 
